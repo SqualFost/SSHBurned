@@ -91,6 +91,11 @@ e99cbe9bee7fac59eecfa752232f4ff22a292ae2e75e6a36ad9f02820100056d864db21a6071724c
 On sait aussi d'après le writeup que les données commenceront toujours par: 
 ##### 02820101 
 
+avec ```02``` : Pour le type de data, ici un entier.
+     ```82``` : qui nous dit que la valeur longueur de l'entier est codée par les 2 octets suivants. 
+     ```0101``` : la taille de l'entier, ici 257 bytes.
+
+
 
 
 
