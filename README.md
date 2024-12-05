@@ -2,15 +2,15 @@
 "SaxX made me do it ;)"
 It's a disaster, the private key allowing to connect to all the machines leaked on the DW, fortunately we don't risk anything because it is not complete !
 
-##Introduction à ce challenge
+## Introduction à ce challenge
 
 Nous pouvons retrouver une image d'un clé RSA privée qui est malheureusement incomplète..
 Contenant des espaces respectifs de 20 lignes, 10 lignes et 5 lignes.
 
 Notre objectif est donc de retrouver les lignes manquantes à cette clé RSA privée.
 
-##Première étape : Récupèrer le texte de l'image.
-###Nous utiliserons de l'OCR (ici https://www.onlineocr.net/fr/) afin de récupèrer tous les caractères, sans avoir à les récupèrer un à un.
+## Première étape : Récupèrer le texte de l'image.
+### Nous utiliserons de l'OCR (ici https://www.onlineocr.net/fr/) afin de récupèrer tous les caractères, sans avoir à les récupèrer un à un.
 On pourra remarquer que c'est une clé RSA privée de 4096bits
 
 ```
@@ -88,7 +88,7 @@ e99cbe9bee7fac59eecfa752232f4ff22a292ae2e75e6a36ad9f02820100056d864db21a6071724c
 [Lignes "brulées" x5]
 -----END RSA PRIVATE KEY-----
 ``` 
-On sait aussi d'après le writeup que les données commenceront toujours par: ###02820101 
+On sait aussi d'après le writeup que les données commenceront toujours par: ### 02820101 
 
 
 
