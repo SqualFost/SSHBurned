@@ -88,7 +88,8 @@ e99cbe9bee7fac59eecfa752232f4ff22a292ae2e75e6a36ad9f02820100056d864db21a6071724c
 [Lignes "brulées" x5]
 -----END RSA PRIVATE KEY-----
 ``` 
-On sait aussi d'après le writeup que les données commenceront toujours par: ### 02820101 
+On sait aussi d'après le writeup que les données commenceront toujours par: 
+### 02820101 
 
 
 
