@@ -61,5 +61,7 @@ RSAPrivateKey ::= SEQUENCE {
 ```
 
 Afin de pouvoir récupèrer ces informations (n, e, d, p, q) on utilisera la formidable site qu'est [CyberChef](https://gchq.github.io/CyberChef/) avec ces paramètres-ci :
+![SSHBurned](settings.png)
+
 
 
