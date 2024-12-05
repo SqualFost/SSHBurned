@@ -96,6 +96,9 @@ avec ```02``` : Pour le type de data, ici un entier.
      ```0101``` : la taille de l'entier, ici 257 bytes.
 
 
+Ce qui nous permet donc d'avoir : 
+
+![SSHBurned](delimiters.png)
 
 
 
