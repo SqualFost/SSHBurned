@@ -10,7 +10,7 @@ Contenant des espaces respectifs de 20 lignes, 10 lignes et 5 lignes.
 Notre objectif est donc de retrouver les lignes manquantes à cette clé RSA privée.
 
 ## Première étape : Récupèrer le texte de l'image.
-### Nous utiliserons de l'OCR (ici https://www.onlineocr.net/fr/) afin de récupèrer tous les caractères, sans avoir à les récupèrer un à un.
+### Nous utiliserons de l'OCR (ici [OnlineOCR](https://www.onlineocr.net/fr/) afin de récupèrer tous les caractères, sans avoir à les récupèrer un à un.
 On pourra remarquer que c'est une clé RSA privée de 4096bits
 
 ```
